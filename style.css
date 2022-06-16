@@ -31,6 +31,7 @@ p {
 .container {
 	display: flex;
 	flex-wrap: wrap;
+	/* maintain width of each div inside flex */
 	justify-content: center;
 	margin: 0 auto;
 	max-width: 1140px;
@@ -46,7 +47,7 @@ p {
 	margin: 15px;
 	width: 350px;
 }
-
+/* to get the upper border */
 .box::after {
 	content: '';
 	position: absolute;
@@ -87,7 +88,7 @@ p {
 
 .box img {
 	display: block;
-	margin-left: auto;
+	margin-left: auto; 
 }
 
 footer {
